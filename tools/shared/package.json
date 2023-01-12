@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/shared",
-    "version": "0.15.3",
+    "version": "0.15.4",
     "publishConfig": {
         "access": "public"
     },
@@ -9,10 +9,10 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/adobe/spectrum-web-components.git",
-        "directory": "packages/shared"
+        "directory": "tools/shared"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/shared",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/tools/shared",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -89,7 +89,7 @@
     ],
     "dependencies": {
         "@lit-labs/observers": "^1.0.1",
-        "@spectrum-web-components/base": "^0.7.2",
+        "@spectrum-web-components/base": "^0.7.3",
         "focus-visible": "^5.1.0"
     },
     "types": "./src/index.d.ts",

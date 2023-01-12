@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/divider",
-    "version": "0.6.2",
+    "version": "0.6.4",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/divider"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/divider",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/divider",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -57,10 +57,10 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2"
+        "@spectrum-web-components/base": "^0.7.3"
     },
     "devDependencies": {
-        "@spectrum-css/divider": "^2.0.1"
+        "@spectrum-css/divider": "^2.0.2"
     },
     "types": "./src/index.d.ts",
     "customElements": "custom-elements.json",

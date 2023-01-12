@@ -1,5 +1,5 @@
 /*
-Copyright 2022 Adobe. All rights reserved.
+Copyright 2023 Adobe. All rights reserved.
 This file is licensed to you under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License. You may obtain a copy
 of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -285,12 +285,15 @@ governing permissions and limitations under the License.
     --spectrum-alias-avatar-size-100: 26px;
     --spectrum-alias-avatar-size-400: 36px;
     --spectrum-alias-avatar-size-600: 46px;
-    --spectrum-alias-tag-icon-size-l: var(
-        --spectrum-global-dimension-static-size-300
+    --spectrum-button-s-primary-fill-textonly-text-padding-bottom: var(
+        --spectrum-global-dimension-static-size-85
     );
-    --spectrum-alias-tag-focusring-border-radius: var(
-        --spectrum-global-dimension-static-size-75
+    --spectrum-button-m-primary-fill-texticon-padding-left: 17px;
+    --spectrum-button-l-primary-fill-textonly-text-padding-top: var(
+        --spectrum-global-dimension-static-size-150
     );
+    --spectrum-button-xl-primary-fill-texticon-padding-left: 27px;
+    --spectrum-button-m-primary-outline-texticon-padding-left: 17px;
     --spectrum-dialog-confirm-title-text-size: var(
         --spectrum-alias-heading-xs-text-size
     );
@@ -318,13 +321,7 @@ governing permissions and limitations under the License.
     --spectrum-progressbar-xl-border-radius: var(
         --spectrum-global-dimension-static-size-75
     );
-    --spectrum-tag-m-texticon-padding-left: var(
-        --spectrum-global-dimension-static-size-150
-    );
     --spectrum-textfield-m-texticon-padding-left: var(
         --spectrum-global-dimension-static-size-150
-    );
-    --spectrum-tooltip-neutral-text-margin-bottom: var(
-        --spectrum-global-dimension-static-size-85
     );
 }

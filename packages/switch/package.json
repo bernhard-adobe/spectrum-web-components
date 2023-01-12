@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/switch",
-    "version": "0.11.4",
+    "version": "0.11.6",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/switch"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/switch",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/switch",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -58,8 +58,8 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/checkbox": "^0.14.5"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/checkbox": "^0.14.7"
     },
     "devDependencies": {
         "@spectrum-css/switch": "^3.0.0"

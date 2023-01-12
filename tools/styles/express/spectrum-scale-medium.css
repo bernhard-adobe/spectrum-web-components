@@ -1,5 +1,5 @@
 /*
-Copyright 2022 Adobe. All rights reserved.
+Copyright 2023 Adobe. All rights reserved.
 This file is licensed to you under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License. You may obtain a copy
 of the License at http://www.apache.org/licenses/LICENSE-2.0
@@ -139,12 +139,6 @@ governing permissions and limitations under the License.
     );
     --spectrum-alias-control-three-width-xl: var(
         --spectrum-global-dimension-static-size-500
-    );
-    --spectrum-alias-tag-text-padding-top-s: var(
-        --spectrum-global-dimension-size-25
-    );
-    --spectrum-alias-tag-icon-size-l: var(
-        --spectrum-global-dimension-static-size-225
     );
     --spectrum-alias-focus-ring-radius-default: var(
         --spectrum-global-dimension-static-size-100
@@ -311,13 +305,7 @@ governing permissions and limitations under the License.
     --spectrum-progressbar-xl-border-radius: var(
         --spectrum-global-dimension-static-size-65
     );
-    --spectrum-tag-m-texticon-padding-left: var(
-        --spectrum-global-dimension-size-125
-    );
     --spectrum-textfield-m-texticon-padding-left: var(
         --spectrum-global-dimension-size-125
-    );
-    --spectrum-tooltip-neutral-text-margin-bottom: var(
-        --spectrum-global-dimension-static-size-65
     );
 }

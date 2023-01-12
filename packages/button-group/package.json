@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/button-group",
-    "version": "0.10.2",
+    "version": "0.10.4",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/button-group"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/button-group",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/button-group",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -57,11 +57,11 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/button": "^0.19.7"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/button": "^0.19.9"
     },
     "devDependencies": {
-        "@spectrum-css/buttongroup": "^6.0.2"
+        "@spectrum-css/buttongroup": "^6.0.3"
     },
     "types": "./src/index.d.ts",
     "customElements": "custom-elements.json",

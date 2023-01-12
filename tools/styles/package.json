@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/styles",
-    "version": "0.21.0",
+    "version": "0.22.1",
     "publishConfig": {
         "access": "public"
     },
@@ -9,10 +9,10 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/adobe/spectrum-web-components.git",
-        "directory": "packages/styles"
+        "directory": "tools/styles"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/styles",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/tools/styles",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -20,10 +20,7 @@
     "module": "src/spectrum-base.css.js",
     "type": "module",
     "exports": {
-        ".": {
-            "development": "./src/index.dev.js",
-            "default": "./src/index.js"
-        },
+        ".": "./src/spectrum-base.css.js",
         "./package.json": "./package.json",
         "./all-large-dark.css": "./all-large-dark.css",
         "./all-large-darkest.css": "./all-large-darkest.css",
@@ -108,7 +105,7 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2"
+        "@spectrum-web-components/base": "^0.7.3"
     },
     "devDependencies": {
         "@spectrum-css/commons": "^3.0.6",

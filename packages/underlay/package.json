@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/underlay",
-    "version": "0.9.2",
+    "version": "0.9.4",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/underlay"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/underlay",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/underlay",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -57,7 +57,7 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2"
+        "@spectrum-web-components/base": "^0.7.3"
     },
     "devDependencies": {
         "@spectrum-css/underlay": "^2.0.32"

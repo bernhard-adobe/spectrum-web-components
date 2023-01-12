@@ -45,6 +45,7 @@ import '../../../projects/story-decorator/src/types.js';
 import './overlay-story-components.js';
 import { render } from 'lit-html';
 import { Popover } from '@spectrum-web-components/popover';
+import { Button } from '@spectrum-web-components/button';
 
 const storyStyles = html`
     <style>
@@ -806,6 +807,8 @@ export const complexModal = (): TemplateResult => {
                 place-content: center;
             }
             active-overlay > * {
+                --spectrum-animation-duration-100: 0ms;
+                --spectrum-animation-duration-200: 0ms;
                 --spectrum-global-animation-duration-100: 0ms;
                 --spectrum-global-animation-duration-200: 0ms;
                 --spectrum-global-animation-duration-300: 0ms;
@@ -1108,4 +1111,30 @@ export const modalWithinNonModal = (): TemplateResult => {
             </sp-popover>
         </overlay-trigger>
     `;
+};
+
+export const updating = (): TemplateResult => {
+    const update = (): void => {
+        const button = document.querySelector('[slot="trigger"]') as Button;
+        button.style.left = `${Math.floor(Math.random() * 200)}px`;
+        button.style.top = `${Math.floor(Math.random() * 200)}px`;
+        button.style.position = 'fixed';
+        Overlay.update();
+    };
+    return html`
+        <overlay-trigger type="click">
+            <sp-button variant="primary" slot="trigger">
+                Open inline overlay
+            </sp-button>
+            <sp-popover slot="click-content" dialog>
+                <sp-button variant="primary" @click=${update}>
+                    Update trigger location.
+                </sp-button>
+            </sp-popover>
+        </overlay-trigger>
+    `;
+};
+
+updating.swc_vrt = {
+    skip: true,
 };

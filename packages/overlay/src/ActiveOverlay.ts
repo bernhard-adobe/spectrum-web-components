@@ -228,7 +228,7 @@ export class ActiveOverlay extends SpectrumElement {
     }
 
     public feature(): void {
-        // eslint-disable-next-line spectrum-web-components/document-active-element
+        // eslint-disable-next-line @spectrum-web-components/document-active-element
         if (!this.contains(document.activeElement)) {
             this.tabIndex = -1;
         }
@@ -283,22 +283,12 @@ export class ActiveOverlay extends SpectrumElement {
 
         this.state = 'active';
 
-        // force paint
-        // this prevents a timing issue that can show up in tests as
-        // 'Error: Timeout: Wait for decorator to become ready...'
-        this.offsetWidth;
-
         this.feature();
-        if (this.placement === 'none') {
-            this.style.setProperty(
-                '--swc-visual-viewport-height',
-                `${window.innerHeight}px`
-            );
-        } else if (this.placement) {
+        if (this.placement && this.placement !== 'none') {
             await this.updateOverlayPosition();
             document.addEventListener(
                 'sp-update-overlays',
-                this.updateOverlayPosition
+                this.setOverlayPosition
             );
         }
         if (this.placement && this.placement !== 'none') {
@@ -428,12 +418,16 @@ export class ActiveOverlay extends SpectrumElement {
         );
     }
 
-    public updateOverlayPosition = async (): Promise<void> => {
-        if (!this.placement || this.placement === 'none') {
-            return;
-        }
+    public updateOverlayPosition = (): void => {
         if (this.interaction !== 'modal' && this.cleanup) {
             this.dispatchEvent(new Event('close'));
+            return;
+        }
+        this.setOverlayPosition();
+    };
+
+    public setOverlayPosition = async (): Promise<void> => {
+        if (!this.placement || this.placement === 'none') {
             return;
         }
         await (document.fonts ? document.fonts.ready : Promise.resolve());
@@ -503,6 +497,7 @@ export class ActiveOverlay extends SpectrumElement {
             {
                 placement: this.placement,
                 middleware,
+                strategy: 'fixed',
             }
         );
 
@@ -656,7 +651,7 @@ export class ActiveOverlay extends SpectrumElement {
     override disconnectedCallback(): void {
         document.removeEventListener(
             'sp-update-overlays',
-            this.updateOverlayPosition
+            this.setOverlayPosition
         );
         super.disconnectedCallback();
     }

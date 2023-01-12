@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.18.10](https://github.com/adobe/spectrum-web-components/compare/@spectrum-web-components/overlay@0.18.9...@spectrum-web-components/overlay@0.18.10) (2023-01-09)
+
+### Bug Fixes
+
+-   use "fixed" strategy to prevent unexpected overlay placement ([e39e108](https://github.com/adobe/spectrum-web-components/commit/e39e108def1336adabb21823d1454e917fd38599))
+
+## [0.18.9](https://github.com/adobe/spectrum-web-components/compare/@spectrum-web-components/overlay@0.18.8...@spectrum-web-components/overlay@0.18.9) (2022-12-08)
+
+### Bug Fixes
+
+-   ensure Overlay.update bypasses the auto close mechanism ([8f2aa2e](https://github.com/adobe/spectrum-web-components/commit/8f2aa2e98507298182356e8ea62e384680aedd2c))
+-   leverage "dvh" rather than measured screen height ([84b9df0](https://github.com/adobe/spectrum-web-components/commit/84b9df0d101d9870a1b0c20eb34ba33fcdd0fbe1))
+
 ## [0.18.8](https://github.com/adobe/spectrum-web-components/compare/@spectrum-web-components/overlay@0.18.7...@spectrum-web-components/overlay@0.18.8) (2022-11-21)
 
 ### Bug Fixes

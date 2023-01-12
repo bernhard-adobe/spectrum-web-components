@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/action-bar",
-    "version": "0.5.8",
+    "version": "0.5.10",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/action-bar"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/action-bar",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/action-bar",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -57,8 +57,8 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/popover": "^0.12.8"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/popover": "^0.12.10"
     },
     "devDependencies": {
         "@spectrum-css/actionbar": "^4.0.1"

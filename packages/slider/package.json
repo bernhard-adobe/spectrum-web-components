@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/slider",
-    "version": "0.15.2",
+    "version": "0.15.4",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/slider"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/slider",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/slider",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -75,12 +75,12 @@
     "dependencies": {
         "@internationalized/number": "^3.1.0",
         "@lit-labs/observers": "^1.0.1",
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/field-label": "^0.10.2",
-        "@spectrum-web-components/number-field": "^0.5.7",
-        "@spectrum-web-components/reactive-controllers": "^0.3.4",
-        "@spectrum-web-components/shared": "^0.15.3",
-        "@spectrum-web-components/theme": "^0.14.7"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/field-label": "^0.10.4",
+        "@spectrum-web-components/number-field": "^0.5.9",
+        "@spectrum-web-components/reactive-controllers": "^0.3.5",
+        "@spectrum-web-components/shared": "^0.15.4",
+        "@spectrum-web-components/theme": "^0.14.9"
     },
     "devDependencies": {
         "@spectrum-css/slider": "^3.1.8"

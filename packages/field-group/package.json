@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/field-group",
-    "version": "0.7.5",
+    "version": "0.8.1",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/field-group"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/field-group",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/field-group",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -57,11 +57,11 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/help-text": "^0.2.6"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/help-text": "^0.2.8"
     },
     "devDependencies": {
-        "@spectrum-css/fieldgroup": "^3.1.4"
+        "@spectrum-css/fieldgroup": "^4.0.2"
     },
     "types": "./src/index.d.ts",
     "customElements": "custom-elements.json",

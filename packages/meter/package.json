@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/meter",
-    "version": "0.7.5",
+    "version": "0.7.7",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/meter"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/meter",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/meter",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -57,9 +57,9 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/field-label": "^0.10.2",
-        "@spectrum-web-components/shared": "^0.15.3"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/field-label": "^0.10.4",
+        "@spectrum-web-components/shared": "^0.15.4"
     },
     "devDependencies": {
         "@spectrum-css/progressbar": "^1.0.33"

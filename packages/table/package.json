@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/table",
-    "version": "0.1.5",
+    "version": "0.1.7",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/table"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/table",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/table",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -64,6 +64,10 @@
         "./src/table-head.css.js": "./src/table-head.css.js",
         "./src/table-row.css.js": "./src/table-row.css.js",
         "./src/table.css.js": "./src/table.css.js",
+        "./elements.js": {
+            "development": "./elements.dev.js",
+            "default": "./elements.js"
+        },
         "./sp-table-body.js": {
             "development": "./sp-table-body.dev.js",
             "default": "./sp-table-body.js"
@@ -111,11 +115,11 @@
         "lit-html"
     ],
     "dependencies": {
-        "@lit-labs/virtualizer": "^0.7.1",
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/checkbox": "^0.14.5",
-        "@spectrum-web-components/icon": "^0.12.4",
-        "@spectrum-web-components/icons-ui": "^0.9.4"
+        "@lit-labs/virtualizer": "^1.0.1",
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/checkbox": "^0.14.7",
+        "@spectrum-web-components/icon": "^0.12.6",
+        "@spectrum-web-components/icons-ui": "^0.9.6"
     },
     "devDependencies": {
         "@spectrum-css/table": "^4.0.20"

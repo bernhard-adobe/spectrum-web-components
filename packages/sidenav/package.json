@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/sidenav",
-    "version": "0.13.5",
+    "version": "0.13.7",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/sidenav"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/sidenav",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/sidenav",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -75,9 +75,9 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/reactive-controllers": "^0.3.4",
-        "@spectrum-web-components/shared": "^0.15.3"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/reactive-controllers": "^0.3.5",
+        "@spectrum-web-components/shared": "^0.15.4"
     },
     "devDependencies": {
         "@spectrum-css/sidenav": "^3.0.25"

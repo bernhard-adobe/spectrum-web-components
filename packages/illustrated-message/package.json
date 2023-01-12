@@ -1,6 +1,6 @@
 {
     "name": "@spectrum-web-components/illustrated-message",
-    "version": "0.9.7",
+    "version": "0.9.9",
     "publishConfig": {
         "access": "public"
     },
@@ -12,7 +12,7 @@
         "directory": "packages/illustrated-message"
     },
     "author": "",
-    "homepage": "https://adobe.github.io/spectrum-web-components/components/illustrated-message",
+    "homepage": "https://opensource.adobe.com/spectrum-web-components/components/illustrated-message",
     "bugs": {
         "url": "https://github.com/adobe/spectrum-web-components/issues"
     },
@@ -57,8 +57,8 @@
         "lit-html"
     ],
     "dependencies": {
-        "@spectrum-web-components/base": "^0.7.2",
-        "@spectrum-web-components/styles": "^0.21.0"
+        "@spectrum-web-components/base": "^0.7.3",
+        "@spectrum-web-components/styles": "^0.22.1"
     },
     "devDependencies": {
         "@spectrum-css/illustratedmessage": "^4.0.7"
